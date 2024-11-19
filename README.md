@@ -1,6 +1,6 @@
 # Ephemeral Storage Worker
 
-A Cloudflare Worker for generating temporary URLs to store and retrieve images. This project is designed to enable secure, short-lived storage for workflows, such as relaying images for analysis by GPT-4o, without consuming excessive input tokens.
+A Cloudflare Worker for generating temporary URLs to store and retrieve images. This project is designed to enable secure, short-lived storage for workflows, such as relaying images for analysis by GPT-4o, without consuming excessive input tokens (reducing prompt token consumption from about 37k to 1.2k).
 
 ## Features
 - **Ephemeral Storage**: Images are stored temporarily using Cloudflare KV with a customizable expiration time.

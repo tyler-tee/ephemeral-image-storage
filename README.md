@@ -1,5 +1,8 @@
 # Ephemeral Storage Worker
 
+![SonarCloud Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=tyler-tee_ephemeral-image-storage&metric=alert_status)
+
+
 A Cloudflare Worker for generating temporary URLs to store and retrieve images. This project is designed to enable secure, short-lived storage for workflows, such as relaying images for analysis by GPT-4o, without consuming excessive input tokens (reducing prompt token consumption from about 37k to 1.2k).
 
 ## Features
